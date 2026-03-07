@@ -44,3 +44,9 @@ header {
         align-items: center;
     }
 }
+
+footer {
+    background-color: #ffd293;
+    padding: 10px;
+    text-align: center;
+}
