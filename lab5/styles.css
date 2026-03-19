@@ -1,0 +1,47 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #feddcb;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    background-color: lightyellow;
+    font-family: fantasy;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    
+}
+h2 {
+    font-size: 50px;
+    
+    
+}
+main {
+    text-align: center;
+    font-size: 50px;
+}
+
+footer {
+    background-color: lightyellow;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+button {
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
