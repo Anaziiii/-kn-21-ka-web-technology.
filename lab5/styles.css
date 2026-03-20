@@ -35,13 +35,3 @@ footer {
     padding: 10px;
     font-size: 30px;
 }
-
-button {
-    font-size: 30px;
-    padding: 10px 20px;
-    margin: 20px;
-    background-color: rgb(255, 255, 255);
-    border: none;
-    cursor: pointer;
-}
-
