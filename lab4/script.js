@@ -4,22 +4,22 @@ alert("Привіт," + name);
 console.log("Консоль");
 
 console.log("Завдання 2.");
-let num1 = Float(prompt("Введіть перше число:"));
-let num2 = Float(prompt("Введіть друге число:"));
+let num1 = Number(prompt("Введіть перше число:"));
+let num2 = Number(prompt("Введіть друге число:"));
 
 let sum = num1 + num2;
-let difference = num1 - num2;
+let dif = num1 - num2;
 
-alert("Сума: " + sum + " Різниця: " + difference);
+alert("Сума: " + sum + " Різниця: " + dif);
 console.log("Сума: " + sum);
-console.log("Різниця: " + difference);
+console.log("Різниця: " + dif);
 
 console.log("Завдання 3.");
-let birthYear = parseInt(prompt("Введіть ваш рік народження:"));
-let nowYear = new Date().getFullYear();
-let age = nowYear - birthYear;
+let birthYear = Number(prompt("Введіть ваш рік народження:"));
+let age = 2026 - birthYear
 
 alert("Ваш вік: " + age + " років.");
+
 console.log("Вік користувача: " + age + " років.");
 
 if (age < 18) {

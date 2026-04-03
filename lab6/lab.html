@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<main>
+<div class = "container">
+    <header>
+  <p> Форма реєстрації</p>
+    </header>
+
+    <form id = "form">
+
+        <div class = "name">
+        <p>Імʼя</p>
+        <input type="text" id="name" required>
+        </div>
+
+        <div class = "email">
+        <p>Пошта</p>
+        <input type="email" id="email" required>
+        </div>
+
+        <div class = "password">
+        <p>Пароль</p>
+        <input type="password" id="password" required>
+        </div>
+
+        <div class = "passwordRepeat">
+        <p>Повторіть пароль</p>
+        <input type="password" id="passwordRepeat">
+        </div>
+
+        <div class = "age">
+        <p>Вік</p>
+        <input type="number" id="age" required>
+        </div>
+
+        <div class="gender-FandM">
+        <p>Стать:</p>
+        <label>
+        <input type="radio" name="gender" value="male" id="genderMale" required>
+        <p>Чоловік</p>
+        </label>
+
+        <label>
+        <input type="radio" name="gender" value="female" id="genderFemale">
+        <p>Жінка</p>
+        </label>
+        </div>
+
+        <div class = "group">
+        <p> Оберіть групу </p>
+        <select>
+            <option> КН-11 </option>
+            <option> КН-21 </option>
+            <option> КН-22СП </option>
+            <option> КН-31 </option>
+            <option> КН-32СП </option>
+            <option> КН-41 </option>
+        </select>
+        </div>
+        
+        <div class = "button">
+            <p> </p>
+            <button type="submit"> Зареєструватись </button>
+        </div> 
+    </form>
+
+</div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
