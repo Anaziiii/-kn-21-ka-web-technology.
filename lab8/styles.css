@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8383a5;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+
+    width: 1500px;
+    height: auto;
+    margin: 0;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #bdc1ff;
+    color: black;
+
+    border-radius: 20px;
+    width: 400px;
+    height: 70px;
+    font-size: 20px;
+    font-family:monospace;
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #4a54e1;
+    color: aliceblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #bab2ff;
+}
+
+input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center; 
+    gap: 70px;
+}
+
+caption{
+    font-family:monospace;
+    font-size: 20px
+}
+
+.forms {
+    background-color: #adb3ff;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right : 200px;
+    margin-left : 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+
+}

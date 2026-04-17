@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота 8</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1> Динамічне завантаження даних за допомогою JavaScript</h1>
+
+<div class="container">
+    
+    <div id="form" class="forms">
+
+        <h3>Додати запис</h3>
+        <p>Ім'я:</p>
+        <input type="text" id="Name">
+        
+        <p>Email:</p>
+        <input type="text" id="Email">
+
+    </div>
+
+        <div class = "button">
+
+            <button id="button1">Добавити</button>
+            <button id="button2" >Оновити дані</button> 
+
+        </div>
+
+    <table>
+        <caption>Список користувачів</caption>
+        <thead> 
+            <tr>
+            <th>ID</th> <th>Ім'я</th> <th>Email</th>
+            </tr>
+        </thead>
+
+        <tbody id="table">
+        </tbody>
+        
+    </table>
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
