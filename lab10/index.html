@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab10</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+    <body class="light">
+
+    <header>
+
+        <div class="header-content">
+
+                <h1 id="user-title">Анастасія</h1>
+
+                <p>Студентка 2-го курсу спеціальності 122 «Комп'ютерні науки»</p>
+
+        </div>
+
+        <nav>
+            <ul>
+                <li> >Про мене</li>
+                <li> >Навички</li>
+                <li> >Портфоліо</li>
+                <li>>Контакти</li>
+
+                <li><button id="button1">Змінити тему</button></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<main>
+    <section id="about">
+        <h2>Про мене</h2>
+        <p>Мені подобається створювати красу за допомогою коду, 
+        тому я активно вивчаю мову розмітки. Окрім програмування 
+        на Python та Java, я захоплююся читанням книжок.</p>
+
+    </section>
+
+    <section id="skills">
+        <h2>Мої навички</h2>
+    
+        <div class="skills-wrapper">
+            <div class="skills-column">
+                <h3>Hard Skills</h3>
+                <ul class="skills-list">
+                    <li><span class="icon">💻</span> HTML & CSS3</li>
+                    <li><span class="icon">📜</span> JavaScript </li>
+                    <li><span class="icon">🐍</span> Python</li>
+                    <li><span class="icon">☕</span> Java</li>
+                    <li><span class="icon">⚙️</span> Arduino </li>
+                </ul>
+            </div>
+
+            <div class="skills-column">
+                <h3>Soft Skills</h3>
+                <ul class="skills-list">
+                    <li><span class="icon">🌟</span> Лідерство </li>
+                    <li><span class="icon">📢</span> Комунікація</li>
+                    <li><span class="icon">🤝</span> Вирішення конфліктів</li>
+                    <li><span class="icon">⏱️</span> Тайм-менеджмент</li>
+                    <li><span class="icon">🧩</span> Адаптивність до змін</li>
+                </ul>
+            </div>
+        </div>
+    </section>       
+
+    <div class="skills-grid">
+
+        <section id="portfolio">
+
+            <h2>Мої проекти</h2> 
+
+            <div class="portfolio-grid">
+                
+                <div class="portfolio-item">
+
+                    <img src="/Users/anastasiakava/html/-kn-21-ka-web-technology./lab10/image2.png" alt="не вийшло загрузити зображення" class="portfolio-img">
+
+                    <div class="portfolio-info">
+
+                        <h3>Веб-сайт</h3>
+                        <p>Розробка персональних сайтів.</p>
+                        <a href="https://github.com/Anaziiii/-kn-21-ka-web-technology./tree/master" class="portfolio-link">Переглянути на GitHub</a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="portfolio-item">
+
+                    <img src="/Users/anastasiakava/html/-kn-21-ka-web-technology./lab10/image1.png" alt="не вийшло загрузити зображення" class="portfolio-img">
+
+                    <div class="portfolio-info">
+
+                        <h3>Дизайн сайту для продажу нерухомості</h3>
+
+                        <p>Розробка веб-інтерфейсу для архітектурного бюро.</p>
+
+                        <a href="https://www.figma.com/proto/fYdsfkKN7R9CHVAfmTT0yb/Untitled?page-id=0%3A1&node-id=1-3&t=8KTuZUkCOpfRPFIR-0&scaling=contain&content-scaling=fixed&starting-point-node-id=49%3A717"  class="portfolio-link">Переглянути на Figma</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+
+
+    <section id="contact">
+
+        <h2>Зв'язатися зі мною</h2>
+
+        <form id="contact-form">
+
+            <input type="text" id="name" placeholder="Ваше ім'я" required>
+            <input type="email" id="email" placeholder="Ваш email" required>
+            <textarea id="message" placeholder="Повідомлення" rows="4" required></textarea>
+            <button type="submit">Надіслати</button>
+
+        </form>
+
+    </section>
+
+</main>
+
+    <footer>
+        <p> 2026. Всі права захищені.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
